@@ -1,0 +1,22 @@
+{
+    "name": "apps-script-library-kana2hepburn",
+    "version": "1.0.0",
+    "description": "「かな」をヘボン式に変換するGASのライブラリーです",
+    "scripts": {
+      "lint": "eslint --fix src/**/*.js",
+      "push": "npm run lint && clasp push"
+    },
+    "author": "howdy39",
+    "license": "MIT",
+    "devDependencies": {
+      "eslint": "^8.14.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-es5": "^1.5.0",
+      "eslint-plugin-googleappsscript": "^1.0.4",
+      "eslint-plugin-prettier": "^4.0.0",
+      "prettier": "^2.6.2"
+    },
+    "dependencies": {
+      "@types/google-apps-script": "^1.0.46"
+    }
+  }
